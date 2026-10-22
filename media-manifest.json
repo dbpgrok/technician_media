@@ -1,9 +1,30 @@
 {
   "version": 1,
   "podcast": {
-    "title": "À définir",
-    "description": "",
+    "title": "Mon Premier Podcast Test",
+    "description": "Pilote de test pour la landing page multimédia",
     "language": "fr-FR"
   },
-  "assets": []
+  "assets": [
+    {
+      "id": "ep-01-audio",
+      "type": "audio",
+      "title": "Épisode 1 : Introduction",
+      "path": "audios/episodes/ep1-intro.mp3",
+      "format": "mp3",
+      "mimeType": "audio/mpeg",
+      "durationSeconds": 45
+    },
+    {
+      "id": "cover-main",
+      "type": "image",
+      "title": "Illustration principale",
+      "path": "images/covers/cover.webp",
+      "format": "webp",
+      "mimeType": "image/webp",
+      "altText": "Affiche du podcast",
+      "width": 800,
+      "height": 800
+    }
+  ]
 }
